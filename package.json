@@ -20,7 +20,7 @@
     "@fkui/logic": "5.46.0",
     "@fkui/vue": "5.46.2",
     "@tsconfig/node20": "20.1.4",
-    "@types/node": "20.16.10",
+    "@types/node": "20.17.19",
     "@vitejs/plugin-vue": "5.1.4",
     "@vue/tsconfig": "0.5.1",
     "sass": "1.79.4",
