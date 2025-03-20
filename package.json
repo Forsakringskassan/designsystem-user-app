@@ -19,7 +19,7 @@
     "@types/node": "20.17.24",
     "@vitejs/plugin-vue": "5.2.3",
     "@vue/tsconfig": "0.7.0",
-    "sass": "1.85.1",
+    "sass": "1.86.0",
     "typescript": "5.8.2",
     "vite": "6.2.2",
     "vue": "3.5.13",
