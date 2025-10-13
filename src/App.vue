@@ -15,12 +15,9 @@
                         <template #label> Etikett rubrik </template>
 
                         <option disabled hidden value="">Välj…</option>
-                        <option value="1">Alternativ 1</option>
-                        <option value="2">Alternativ 2</option>
-                        <option value="3">Alternativ 3</option>
-                        <option value="4">Alternativ 4</option>
-                        <option value="5">Alternativ 5</option>
-                        <option value="6">Alternativ 6</option>
+                        <option v-for="alternative in alternatives" :key="alternative.id" :value="alternative.id">
+                            {{ alternative.label }}
+                        </option>
                         <option value="7">Alternativ 7</option>
                     </f-select-field>
 
@@ -85,6 +82,7 @@ import {
     FCard,
     FValidationForm,
 } from "@fkui/vue";
+import { getAlternatives, type AlternativesModel } from "./repository";
 
 export default defineComponent({
     components: {
@@ -105,7 +103,11 @@ export default defineComponent({
             checkboxModel: [],
             fullmaktExpanded: false,
             type: Boolean,
+            alternatives: [] as AlternativesModel[],
         };
+    },
+    async mounted() {
+            this.alternatives = await getAlternatives();
     },
     methods: {
         onToggle() {
