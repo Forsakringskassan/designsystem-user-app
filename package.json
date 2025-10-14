@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "BUILD_MODE=production vite build",
+    "build:dev": "vite build",
     "preview": "vite preview",
     "type-check": "vue-tsc --build --force"
   },
@@ -13,9 +14,11 @@
     "@fkui/icon-lib-default": "6.21.0",
     "@fkui/user-lib-design": "1.2.0",
     "@fkui/vue": "6.21.0",
-    "@forsakringskassan/template-api": "^1.7.1"
+    "@forsakringskassan/devindex-menu": "^1.10.0",
+    "@forsakringskassan/template-api": "^1.10.0"
   },
   "devDependencies": {
+    "@forsakringskassan/apimock-express": "^2.9.0",
     "@tsconfig/node20": "20.1.6",
     "@types/node": "20.19.20",
     "@vitejs/plugin-vue": "6.0.1",

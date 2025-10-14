@@ -22,7 +22,7 @@ const api = new FullmaktsControllerApi(
 
 export async function getAlternatives(): Promise<AlternativesModel[]> {
   try {
-    const response = await api.apiAlternativesGet();
+    const response = await api.getAlternatives();
     const alternatives = response?.alternatives;
 
     if (!alternatives || alternatives.length === 0) {

@@ -18,7 +18,6 @@
                         <option v-for="alternative in alternatives" :key="alternative.id" :value="alternative.id">
                             {{ alternative.label }}
                         </option>
-                        <option value="7">Alternativ 7</option>
                     </f-select-field>
 
                     <f-card>
