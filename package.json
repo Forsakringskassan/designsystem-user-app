@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "BUILD_MODE=production vite build",
+    "build:ghpages": "vite build",
     "build:dev": "vite build",
     "preview": "vite preview",
     "type-check": "vue-tsc --build --force"
