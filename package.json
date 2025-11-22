@@ -22,7 +22,7 @@
     "@forsakringskassan/apimock-express": "2.11.0",
     "@tsconfig/node20": "20.1.8",
     "@types/node": "20.19.25",
-    "@vitejs/plugin-vue": "6.0.1",
+    "@vitejs/plugin-vue": "6.0.2",
     "@vue/tsconfig": "0.8.1",
     "sass": "1.94.1",
     "typescript": "5.9.3",
