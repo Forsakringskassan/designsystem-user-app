@@ -4,12 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "prebuild": "vue-tsc --build",
     "build": "cross-env BUILD_MODE=production vite build",
-    "build:ghpages": "vite build",
-    "build:dev": "vite build",
     "preview": "vite preview",
-    "type-check": "vue-tsc --build --force"
+    "start": "vite"
   },
   "dependencies": {
     "@fkui/icon-lib-default": "6.30.0",
