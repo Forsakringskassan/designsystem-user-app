@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "BUILD_MODE=production vite build",
+    "build": "cross-env BUILD_MODE=production vite build",
     "build:ghpages": "vite build",
     "build:dev": "vite build",
     "preview": "vite preview",
@@ -24,6 +24,7 @@
     "@types/node": "20.19.25",
     "@vitejs/plugin-vue": "6.0.2",
     "@vue/tsconfig": "0.8.1",
+    "cross-env": "10.1.0",
     "sass": "1.94.2",
     "typescript": "5.9.3",
     "vite": "7.2.4",
