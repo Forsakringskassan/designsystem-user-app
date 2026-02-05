@@ -20,7 +20,7 @@
     "@forsakringskassan/apimock-express": "2.13.0",
     "@tsconfig/node20": "20.1.8",
     "@types/node": "20.19.30",
-    "@vitejs/plugin-vue": "6.0.3",
+    "@vitejs/plugin-vue": "6.0.4",
     "@vue/tsconfig": "0.8.1",
     "cross-env": "10.1.0",
     "sass": "1.97.3",
