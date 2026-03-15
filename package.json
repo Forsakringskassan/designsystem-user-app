@@ -17,7 +17,7 @@
     "@forsakringskassan/template-api": "^1.10.0"
   },
   "devDependencies": {
-    "@forsakringskassan/apimock-express": "2.14.1",
+    "@forsakringskassan/apimock-express": "2.15.0",
     "@tsconfig/node20": "20.1.9",
     "@types/node": "20.19.37",
     "@vitejs/plugin-vue": "6.0.4",
