@@ -19,7 +19,7 @@
   "devDependencies": {
     "@forsakringskassan/apimock-express": "2.15.0",
     "@tsconfig/node20": "20.1.9",
-    "@types/node": "20.19.37",
+    "@types/node": "20.19.39",
     "@vitejs/plugin-vue": "6.0.5",
     "@vue/tsconfig": "0.9.1",
     "cross-env": "10.1.0",
