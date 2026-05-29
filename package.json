@@ -14,7 +14,7 @@
     "@fkui/user-lib-design": "1.5.2",
     "@fkui/vue": "6.48.0",
     "@forsakringskassan/devindex-menu": "2.3.1",
-    "@forsakringskassan/template-api": "1.11.3"
+    "@forsakringskassan/template-api": "1.11.4"
   },
   "devDependencies": {
     "@forsakringskassan/apimock-express": "2.16.1",
