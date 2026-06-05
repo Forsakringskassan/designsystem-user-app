@@ -1,7 +1,7 @@
+import fs from "node:fs/promises";
 import { defineConfig } from 'vite'
 import { vitePlugin as apimockPlugin } from "@forsakringskassan/apimock-express";
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
 
 export default defineConfig(({ command }) => {
   const base = command === 'serve' ? '/' : '/designsystem-user-app/'
@@ -17,11 +17,15 @@ export default defineConfig(({ command }) => {
       apimockPlugin([
         { url: "/api/template", dir: "node_modules/@forsakringskassan/template-api/dist/mock/api/template/" },
       ]),
+      {
+        name: "fk:hack-do-not-do-this",
+        transformIndexHtml: {
+          enforce: "pre",
+          async handler() {
+            return await fs.readFile(htmlFile, "utf8");
+          },
+        },
+      },
     ],
-    build: {
-      rollupOptions: {
-        input: resolve(__dirname, htmlFile)
-      }
-    }
   }
 })
