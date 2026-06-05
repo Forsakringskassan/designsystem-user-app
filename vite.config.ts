@@ -20,7 +20,7 @@ export default defineConfig(({ command }) => {
       {
         name: "fk:hack-do-not-do-this",
         transformIndexHtml: {
-          enforce: "pre",
+          order: "pre",
           async handler() {
             return await fs.readFile(htmlFile, "utf8");
           },
