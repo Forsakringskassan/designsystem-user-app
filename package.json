@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@forsakringskassan/apimock-express": "2.16.1",
-    "@tsconfig/node20": "20.1.9",
-    "@types/node": "20.19.43",
+    "@tsconfig/node22": "22.0.5",
+    "@types/node": "22.19.21",
     "@vitejs/plugin-vue": "6.0.7",
     "@vue/tsconfig": "0.9.1",
     "cross-env": "10.1.0",
@@ -28,5 +28,12 @@
     "vite": "8.0.16",
     "vue": "3.5.38",
     "vue-tsc": "3.3.5"
+  },
+  "engines": {
+    "node": "^22.16 || >= 24"
+  },
+  "allowScripts": {
+    "@parcel/watcher": false,
+    "fsevents": false
   }
 }
