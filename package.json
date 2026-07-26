@@ -23,7 +23,7 @@
     "@vitejs/plugin-vue": "6.0.8",
     "@vue/tsconfig": "0.9.1",
     "cross-env": "10.1.0",
-    "sass": "1.101.3",
+    "sass": "1.101.6",
     "typescript": "6.0.3",
     "vite": "8.1.5",
     "vue": "3.5.40",
