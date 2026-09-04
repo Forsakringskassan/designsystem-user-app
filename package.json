@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@fkui/icon-lib-default": "6.56.0",
-    "@fkui/user-lib-design": "1.5.14",
+    "@fkui/user-lib-design": "1.5.15",
     "@fkui/vue": "6.56.0",
     "@forsakringskassan/devindex-menu": "2.3.10",
     "@forsakringskassan/template-api": "1.11.7"
