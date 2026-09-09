@@ -10,9 +10,9 @@
     "start": "vite"
   },
   "dependencies": {
-    "@fkui/icon-lib-default": "6.56.0",
+    "@fkui/icon-lib-default": "6.57.0",
     "@fkui/user-lib-design": "1.5.15",
-    "@fkui/vue": "6.56.0",
+    "@fkui/vue": "6.57.0",
     "@forsakringskassan/devindex-menu": "2.3.11",
     "@forsakringskassan/template-api": "1.11.7"
   },
