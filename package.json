@@ -17,7 +17,7 @@
     "@forsakringskassan/template-api": "1.11.7"
   },
   "devDependencies": {
-    "@forsakringskassan/apimock-express": "3.2.1",
+    "@forsakringskassan/apimock-express": "4.1.0",
     "@tsconfig/node22": "22.0.6",
     "@types/node": "22.20.2",
     "@typescript/native": "npm:typescript@7.0.2",
